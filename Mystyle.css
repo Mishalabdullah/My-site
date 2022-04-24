@@ -1,12 +1,29 @@
-h1{
-  font-family: Montserrat
+body{
+  background-color: #000000 ;
 }
+main{
+  text-align: center;
+  color: #ffffff;
+}
+h1{
+  font-family: Montserrat;
+  text-align: center;
+  color: #ffffff;
+}
+
 h2{
-  font-family: Montserrat
+  font-family: Montserrat;
+  color: #ffffff;
 }
 h3{
-  font-family: Montserrat
+  font-family: Montserrat;
+  color: #ffffff;
 }
 p{
   font-family: Fira sans;
+  color: #ffffff;
+}
+ul{
+  font-family: Roboto;
+  color: #ffffff;
 }
