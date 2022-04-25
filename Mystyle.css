@@ -1,5 +1,5 @@
 body{
-  background-color: #000000 ;
+  background-color:  #282C35 ;
 }
 main{
   text-align: center;
@@ -24,6 +24,10 @@ p{
   color: #ffffff;
 }
 ul{
+  font-family: Roboto;
+  color: #ffffff;
+}
+a{
   font-family: Roboto;
   color: #ffffff;
 }
