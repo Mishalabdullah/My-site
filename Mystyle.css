@@ -31,3 +31,13 @@ a{
   font-family: Roboto;
   color: #ffffff;
 }
+nav{
+  font-family: Montserrat;
+  text-align: right;
+  color: #ffffff;
+}
+img{
+  width: 90%;
+  display: inline-block;
+  overflow: auto;
+}
