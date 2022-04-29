@@ -1,6 +1,8 @@
-nav{
+nav ul {
   padding: 0;
   margin: 0;
+}
+nav ul a{
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
@@ -58,4 +60,12 @@ img{
   width: 90%;
   display: inline-block;
   overflow: auto;
+}
+div i ,div a{
+  font-size: small;
+  font-family: Fira sans;
+  color: #ffffff;
+}
+div{
+  text-align: center;
 }
