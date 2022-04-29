@@ -61,11 +61,11 @@ img{
   display: inline-block;
   overflow: auto;
 }
-div i ,div a{
+span i ,span a{
   font-size: small;
   font-family: Fira sans;
   color: #ffffff;
 }
-div{
+div,span{
   text-align: center;
 }
