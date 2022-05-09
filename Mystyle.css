@@ -61,11 +61,16 @@ img{
   display: inline-block;
   overflow: auto;
 }
-div i ,div a{
-  font-size: small;
+div a{
+  font-size: large;
   font-family: Fira sans;
   color: #ffffff;
 }
 div{
   text-align: center;
+}
+div span{
+  font-size: small;
+  font-family: Fira sans;
+  color: #ffffff;
 }
