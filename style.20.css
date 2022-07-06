@@ -2,8 +2,8 @@ body{
     background-image: url(images/home.png) ;   
   }
 nav{
-    color: whitesmoke;
-    font-family: sans-serif;
+    color: aliceblue;
+    font-family: Roboto,sans-serif;
     font-weight: bold;
     list-style: none;
     box-sizing: border-box;
@@ -15,9 +15,14 @@ nav .logo{
 }
 nav ul{
     float: right;  
-    line-height: 60px;  
+    line-height: 55px;  
   }
   nav ul li{
     display: inline-block;
     margin: 0 13px;
+    
   }
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
