@@ -2,13 +2,13 @@ body{
     background-image: url(images/home.png) ;   
   }
 nav{
-    color: aliceblue;
-    font-family: roboto, sans-serif ;
-    font-weight: bold;
-    list-style: none;
-    box-sizing: border-box;
-    padding: 0px 70px;
-    font-size: 200%;
+  color: aliceblue;
+  font-family: 'Roboto', sans-serif ;
+  font-weight: bold;
+  list-style: none;
+  box-sizing: border-box;
+  padding: 0px 70px;
+  font-size: 200%;
 }
 nav .logo{
     line-height: 90px;
@@ -23,12 +23,29 @@ nav ul{
     
   }
 nav ul li a{
-    text-decoration: none;
-    color: aliceblue;
+  text-decoration: none;
+  color: aliceblue;
 }
 .myimage{
   display: block;
   float: left;
   margin: 170px 129px;
+  position: absolute;
+  width: 490px;
+  height: 67px;
+  font-family: 'Roboto';
+  font-size: 32px;
+  line-height: 38px;
+  color: #FFFFFF;
 }
-/*  */
+.resumebutton{
+position: absolute;
+width: 188px;
+height: 63px;
+background: #400BD1;
+border-radius: 50px;
+transform: matrix(1, 0, 0, -1, 200, -260);
+}
+.resumebutton h4{
+  transform: matrix(1, 0, 0, -1, 36, -30);
+}
