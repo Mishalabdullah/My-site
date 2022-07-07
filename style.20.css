@@ -3,19 +3,19 @@ body{
   }
 nav{
     color: aliceblue;
-    font-family: Roboto,sans-serif;
+    font-family: roboto, sans-serif ;
     font-weight: bold;
     list-style: none;
     box-sizing: border-box;
     padding: 0px 70px;
-    font-size: larger;
+    font-size: 200%;
 }
 nav .logo{
     line-height: 90px;
 }
 nav ul{
     float: right;  
-    line-height: 55px;  
+    line-height: 27px;  
   }
   nav ul li{
     display: inline-block;
@@ -26,3 +26,9 @@ nav ul li a{
     text-decoration: none;
     color: aliceblue;
 }
+.myimage{
+  display: block;
+  float: left;
+  margin: 170px 129px;
+}
+/*  */
