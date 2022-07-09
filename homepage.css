@@ -1,5 +1,5 @@
 body{
-    background-image: url(images/home.png) ;   
+    background-image: url(Assets/home.png) ;   
   }
 nav{
   color: aliceblue;
@@ -40,12 +40,14 @@ nav ul li a{
 }
 .resumebutton{
 position: absolute;
-width: 188px;
-height: 63px;
+width: 160px;
+height: 50px;
 background: #400BD1;
 border-radius: 50px;
 transform: matrix(1, 0, 0, -1, 200, -260);
 }
-.resumebutton h4{
-  transform: matrix(1, 0, 0, -1, 36, -30);
+.resumebutton a h4{
+  transform: matrix(1, 0, 0, -1, 22, -36);
+  text-decoration: none;
+  color: aliceblue;
 }
