@@ -1,9 +1,9 @@
 /* Home Page*/
 body{
-    background-image: url(Assets/home.png) ;   
+    background-color: #ffffff;  
   }
 nav{
-  color: aliceblue;
+  color: #2c3136;
   font-family: 'Roboto', sans-serif ;
   font-weight: bold;
   list-style: none;
@@ -25,32 +25,35 @@ nav ul{
   }
 nav ul li a{
   text-decoration: none;
-  color: aliceblue;
+  color: #2c3136;
 }
 .myimage{
-  display: block;
+  display: inline-block;
   float: left;
-  margin: 170px 129px;
+  margin: 150px 78px;
   position: absolute;
   width: 490px;
   height: 67px;
   font-family: 'Roboto';
   font-size: 32px;
   line-height: 38px;
-  color: #FFFFFF;
+  color: #2c3136;
+}
+.myimage img{
+  margin: -25% 160%;
 }
 .resumebutton{
 position: absolute;
 width: 160px;
 height: 50px;
-background: #400BD1;
+background: #434a54;
 border-radius: 50px;
-transform: matrix(1, 0, 0, -1, 200, -260);
+transform: matrix(1, 0, 0, -1, -0, -200);
 }
 .resumebutton a h4{
   transform: matrix(1, 0, 0, -1, 22, -36);
   text-decoration: none;
-  color: aliceblue;
+  color: #  ffffff;
 }
 /* Home Page End*/
 
