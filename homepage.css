@@ -12,7 +12,7 @@ nav{
   font-size: 200%;
 }
 nav .logo{
-    line-height: 90px;
+    line-height: 120px;
 }
 nav ul{
     float: right;  
@@ -25,11 +25,12 @@ nav ul{
   }
 nav ul li a{
   text-decoration: none;
-  color: #2c3136;
+  font-weight: 600;
+  line-height: 1.6em;
+  color: #656d78;
 }
 .myimage{
   display: inline-block;
-  float: left;
   margin: 150px 78px;
   position: absolute;
   width: 490px;
@@ -37,23 +38,30 @@ nav ul li a{
   font-family: 'Roboto';
   font-size: 32px;
   line-height: 38px;
+  
   color: #2c3136;
 }
 .myimage img{
-  margin: -25% 160%;
+  max-width: 580px;
+  margin: -100px 0px;
+  transform: matrix(1, -0, 0, 1,620, 0);
+}
+.myimage h4{
+  transform: matrix(1, -0, 0, 1, 1, -50);
 }
 .resumebutton{
-position: absolute;
-width: 160px;
-height: 50px;
-background: #434a54;
-border-radius: 50px;
-transform: matrix(1, 0, 0, -1, -0, -200);
-}
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  background: #434a54;
+  border-radius: 50px;
+  transform: matrix(1, 0, 0, -1, -0, -250);
+  }
 .resumebutton a h4{
   transform: matrix(1, 0, 0, -1, 22, -36);
   text-decoration: none;
-  color: #  ffffff;
+  color: #ffffff;
 }
+
 /* Home Page End*/
 
