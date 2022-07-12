@@ -3,7 +3,7 @@ body{
     background-color: #ffffff;  
     font-family: 'Roboto';
     font-weight: bold;
-     
+    box-sizing: border-box;     
   }
 nav{
   color: #2c3136;
