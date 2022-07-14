@@ -1,7 +1,7 @@
 /* Home Page*/
 body{
     background-color: #ffffff;  
-    font-family: 'Roboto';
+    font-family: 'Roboto','sans-serif';
     font-weight: bold;
     box-sizing: border-box;     
   }
