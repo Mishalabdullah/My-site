@@ -67,4 +67,20 @@ nav ul li a{
 }
 /* Home Page End*/
 /* Projects*/
+section{
+  padding: 10px;
+  display: grid;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  gap: 1rem;
+  align-items: flex-start;
+  position: relative;
+  bottom: -500px;
+}
+.Projects article{
+  min-height: 300px;
+  border: 1px solid ;
+  border-color: black;
+  padding: 20px;
 
+}
